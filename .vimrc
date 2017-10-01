@@ -47,7 +47,22 @@ filetype plugin indent on    " required
 " Plugins
 
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
 
+" Enable number strings
 set number
 
+" Set to auto read when a file is changed from the outside
 set autoread
+
+" Height of the command bar
+set cmdheight=2
+
+" When searching try to be smart about cases
+set smartcase
+
+" Highlight search result
+set hlsearch
+
+" Enable syntax highlighting
+syntax enable
