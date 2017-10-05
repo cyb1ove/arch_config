@@ -1,2 +1,2 @@
 " Toogle Tree Tabs Sidebar
-noremap t :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
+noremap s :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
