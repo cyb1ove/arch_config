@@ -6,3 +6,8 @@ noremap R :restart<CR>
 
 noremap <S-j> G
 noremap <S-k> gg
+
+noremap <C-S-h> :back! ><CR>
+noremap <C-S-l> :forward! <<CR>
+noremap <C-h> :back<CR>
+noremap <C-l> :forward<CR>
