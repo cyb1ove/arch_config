@@ -45,3 +45,11 @@ noremap zK zI
 noremap zL zM
 noremap zJ zO
 noremap zH zR
+
+" Remap console jumps in history
+cnoremap <A-S-k> <S-Up>
+cnoremap <A-S-l> <S-Down>
+cnoremap <A-k> <Up>
+cnoremap <A-j> <Down>
+
+
