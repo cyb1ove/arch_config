@@ -1,5 +1,5 @@
 " Toogle Tree Tabs Sidebar
-noremap s :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
+noremap t :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
 
 " Mappings
 noremap R :restart<CR>
@@ -11,3 +11,6 @@ noremap <C-S-h> :back! ><CR>
 noremap <C-S-l> :forward! <<CR>
 noremap <C-h> :back<CR>
 noremap <C-l> :forward<CR>
+
+noremap oo :open 
+noremap oJ :tabopen 
