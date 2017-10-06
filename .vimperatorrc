@@ -52,4 +52,7 @@ cnoremap <A-S-l> <S-Down>
 cnoremap <A-k> <Up>
 cnoremap <A-j> <Down>
 
-
+" Remap switching tabs
+noremap <A-S-k> g@
+noremap <A-j> gt
+noremap <A-k> gT
