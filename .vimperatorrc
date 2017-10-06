@@ -1,16 +1,35 @@
 " Toogle Tree Tabs Sidebar
 noremap t :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
 
-" Mappings
+" Map restart firefox
 noremap R :restart<CR>
 
+" Map scroll page 
 noremap <S-j> G
 noremap <S-k> gg
 
+" Map navigation
 noremap <C-S-h> :back! ><CR>
 noremap <C-S-l> :forward! <<CR>
 noremap <C-h> :back<CR>
 noremap <C-l> :forward<CR>
+noremap <C-j> gu
+noremap <C-J> gU
 
+" Map opening web pages
 noremap oo :open 
-noremap oJ :tabopen 
+noremap oJ :tabopen
+noremap uu O
+noremap uJ T
+noremap pp p
+noremap pJ P
+
+" Map dublicate web pages
+noremap d :tabdplicate<CR>
+
+" Map remove web pages
+noremap cc :quit<CR>
+noremap ck :removetabsleft<CR>
+noremap cj :removetabsright<CR>
+
+
