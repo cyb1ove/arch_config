@@ -3,3 +3,6 @@ noremap s :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR
 
 " Mappings
 noremap R :restart<CR>
+
+noremap <S-j> G
+noremap <S-k> gg
