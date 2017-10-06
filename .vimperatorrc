@@ -1,8 +1,26 @@
+" Autocomplete using Firefox Awesomebar subsystem
+set complete=l
+
+" Set the external text editor
+set editor="urxvt vim"
+
+" Set hintinputs
+set hintchars="asdfghjkl"
+
+" Config Vimperator statusline
+set status="input,location,bookmark,history,ssl,tabcount"
+
+" Always on statusline
+set statuslinevisibility="visible"
+
+set showstatuslinks=3
+
 " Toogle Tree Tabs Sidebar
 noremap t :javascript SidebarUI.toggle("treetabs_jagiello_it-sidebar-action")<CR>
 
 " Map restart firefox
 noremap R :restart<CR>
+
 
 " Map scroll page 
 noremap <S-j> G
