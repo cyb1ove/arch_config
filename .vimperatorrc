@@ -7,6 +7,8 @@ noremap R :restart<CR>
 " Map scroll page 
 noremap <S-j> G
 noremap <S-k> gg
+noremap <S-h> 0
+noremap <S-l> $
 
 " Map navigation
 noremap <C-S-h> :back! ><CR>
@@ -32,4 +34,4 @@ noremap cc :quit<CR>
 noremap ck :removetabsleft<CR>
 noremap cj :removetabsright<CR>
 
-
+noremap sp :pageinfo<CR>
