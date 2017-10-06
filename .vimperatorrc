@@ -35,3 +35,13 @@ noremap ck :removetabsleft<CR>
 noremap cj :removetabsright<CR>
 
 noremap sp :pageinfo<CR>
+
+" Remap zoom
+noremap zk zi
+noremap zl zm
+noremap zj zo
+noremap zh zr
+noremap zK zI
+noremap zL zM
+noremap zJ zO
+noremap zH zR
