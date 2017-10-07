@@ -48,7 +48,8 @@ noremap pJ P
 noremap d :tabdplicate<CR>
 
 " Map remove web pages
-noremap cc :quit<CR>
+noremap cc d<CR>
+noremap cC :tabonly<CR>
 noremap ck :removetabsleft<CR>
 noremap cj :removetabsright<CR>
 
@@ -71,6 +72,24 @@ cnoremap <A-k> <Up>
 cnoremap <A-j> <Down>
 
 " Remap switching tabs
-noremap <A-S-k> g@
+noremap <A-S-k> g0
+noremap <A-S-j> g$
 noremap <A-j> gt
 noremap <A-k> gT
+noremap <A-o> :tabdetach<CR>
+
+" Map marks options
+noremap ab a
+noremap aB A
+noremap aq M
+noremap al m
+noremap gJ gn
+noremap g<A-j> gw
+noremap sb :bmarks!
+noremap sh :history!
+noremap sq :qmarks<CR>
+noremap sl :marks<CR>
+noremap db :delbmark!
+noremap dq :delqmarks!
+noremap dl :delmarks!
+ 
